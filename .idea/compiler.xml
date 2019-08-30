@@ -6,8 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="utils_parent" />
+        <module name="thymeleaf_utils" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="thymeleafutils" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
 </project>

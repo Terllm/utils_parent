@@ -6,7 +6,11 @@
 
     <groupId>com.terllm</groupId>
     <artifactId>utils_parent</artifactId>
+    <packaging>pom</packaging>
     <version>1.0</version>
+    <modules>
+        <module>thymeleaf_utils</module>
+    </modules>
 
     <name>utils_parent</name>
     <!-- FIXME change it to the project's website -->
