@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p th:text="${name}"/>
+
+<div > <!-- 遍历整个div-p-->
+    <p th:text="${message}" th:each="message : ${list}"/>
+</div>
+
+</body>
+</html>

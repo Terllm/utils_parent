@@ -10,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>thymeleaf_utils</artifactId>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
 
     <name>thymeleaf_utils Maven Webapp</name>
     <!-- FIXME change it to the project's website -->
@@ -63,6 +63,10 @@
                 <plugin>
                     <artifactId>maven-deploy-plugin</artifactId>
                     <version>2.8.2</version>
+                </plugin>
+                <plugin>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-maven-plugin</artifactId>
                 </plugin>
             </plugins>
         </pluginManagement>
