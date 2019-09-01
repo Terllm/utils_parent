@@ -6,6 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="freemarker_utils" />
+        <module name="mvc_utils" />
         <module name="thymeleaf_utils" />
       </profile>
     </annotationProcessing>
