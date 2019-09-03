@@ -12,6 +12,7 @@
         <module>thymeleaf_utils</module>
         <module>freemarker_utils</module>
         <module>mvc_utils</module>
+        <module>commons_utils</module>
     </modules>
 
     <name>utils_parent</name>

@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="commons_utils" />
         <module name="freemarker_utils" />
         <module name="mvc_utils" />
         <module name="thymeleaf_utils" />
