@@ -47,6 +47,14 @@ public class ImageColorGraphicsUtils {
     }
 
 
+    public static void main(String[] args) throws IOException {
+
+
+        JPEGImageColorOff(new File("E://00.png"));
+
+
+    }
+
 
 
 }
