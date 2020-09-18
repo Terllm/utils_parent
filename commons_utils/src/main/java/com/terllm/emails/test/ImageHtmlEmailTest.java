@@ -29,18 +29,19 @@ public class ImageHtmlEmailTest {
                 +"</head>"
                 +"<body>"
                 +"<h1>imagehtml</h1>"
-                +"<img style='width:100% height:100%' src='C:\\Users\\Administrator\\Desktop\\个人/阿丽塔.jpg'></img>"
+                +"<img style='width:100% height:100%' src='E:\\个人/阿丽塔.jpg'></img>"
                 +"<img style='width:100% height:100%' src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1563942171144&di=fad0cb694ff9f431e87356f991d07c53&imgtype=0&src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20170913%2Fb82cac751d7f48529d62bad9ed2a6ddf.jpeg'></img>"
                 +"</body>"
                 +"</html>");
 
         imageHtmlEmail.setSubject("html测试");
         //DataSourceResolver
-        DataSourceResolver[] dataSourceResolvers = {new DataSourceFileResolver(),//���DataSourceFileResolver���ڽ�������ͼƬ
-                new DataSourceUrlResolver(new URL("https://"))}; //���DataSourceUrlResolver���ڽ�������ͼƬ��ע�⣺new URL("https://")
+        DataSourceResolver[] dataSourceResolvers = {new DataSourceFileResolver(),//解析本地图片
+                new DataSourceUrlResolver(new URL("https://"))}; //解析网络图片
 
 
         imageHtmlEmail.setDataSourceResolver(new DataSourceCompositeResolver(dataSourceResolvers));
+
         imageHtmlEmail.send();
 
 

@@ -15,8 +15,8 @@ public class SimpleEmailTest {
 		
 		SimpleEmail simpleEmail = (SimpleEmail) Emails.constrator(SimpleEmail.class);
 		simpleEmail.addTo(EmailConstants.RECEIVE_USER);
-		simpleEmail.setSubject("����SimpleEmail");
-		simpleEmail.setMsg("�յ����ͳɹ�");
+		simpleEmail.setSubject("SimpleEmail");
+		simpleEmail.setMsg("测试");
 		simpleEmail.send();
 		
 	}
