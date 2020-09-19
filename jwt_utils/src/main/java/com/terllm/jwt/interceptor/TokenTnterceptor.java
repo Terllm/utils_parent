@@ -57,7 +57,7 @@ public class TokenTnterceptor extends HandlerInterceptorAdapter {
         try {
             if (StringUtils.isEmpty(token) || jwtConfig.isTokenExpired(token)) {
                 //在参数中获取 token
-                throw new SignatureException(jwtConfig.getHeader() + "失效，请重新登录。");
+                throw new SignatureException(jwtConfig.getHeader() + "失效，请重新认证。");
             }
         } catch (SignatureException e) {
 
